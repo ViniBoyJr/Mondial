@@ -1,0 +1,757 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=Oswald:wght@200..700&display=swap');
+
+html {
+    background-color: #f0f0f0bd;
+    display: flex;
+    background-size: cover;
+}
+
+/* parte de cima */
+.containercima{
+    margin-left: -8px;
+    background-color: #74B4D4;
+    width: 1920px;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+    margin-top: -8px;
+}
+
+.textcima{
+    padding-top: 6px;
+    text-align: center;
+}
+
+/* Título */
+.containertitulo{
+    width: 1920px;
+    height: 90px;
+    background-color: rgb(255, 255, 255);
+    margin-left: -10px;
+}
+
+.btn{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    margin-top: -30px;
+    margin-left: 20px;
+    transition: all linear 160ms;
+}
+
+.btn:hover{
+    transform: scale(1.05);
+}
+
+.formLogin input {
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    margin-top: 28px;
+    margin-left: 200px;
+    border-radius: 100px;
+    transition: all linear 160ms;
+    outline: none;
+    width: 600px;
+    height: 12px;
+    position: absolute;
+    border: 1px solid #74B4D4;
+}
+
+
+.formLogin input:focus {
+    border: 1px solid #74B4D4;
+}
+
+.imglupa {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    margin-top: 36px;
+    margin-left: 790px;
+}
+
+.imgrastrear {
+    width: 187px;
+    height: 45px;
+    position: absolute;
+    margin-top: 25px;
+    margin-left: 880px;
+    transition: all linear 160ms;
+}
+
+.imgrastrear:hover{
+    transform: scale(1.05);
+}
+
+.telefone {
+    width: 33px;
+    height: 35px;
+    position: absolute;
+    margin-left: 1150px;
+    margin-top: 30px;
+}
+
+.imgcentral {
+    position: absolute;
+    width: 240px;
+    height: 70px;
+    margin-top: 10px;
+    margin-left: 1200px;
+}
+
+.imgentrar {
+    width: 79px;
+    height: 39px;
+    margin-top: 25px;
+    margin-left: 1700px;
+    transition: all linear 160ms;
+    margin-right: -50px;
+}
+
+.imgentrar:hover{
+    transform: scale(1.05);
+}
+
+.imgcarrinho {
+    width: 38px;
+    height: 38px;
+    position: absolute;
+    margin-left: 100px;
+    margin-top: 25px;
+    transition: all linear 160ms;
+}
+
+.imgcarrinho:hover {
+    transform: scale(1.05);
+}
+
+/* Menu */
+.containermenu {
+    width: 1920px;
+    height: 40px;
+    background-color:#74B4D4;
+    text-align: center;
+    margin-left: -8px;
+    padding-top: 16px;
+}
+
+a.one:link {
+    font-size: 17px;
+    text-decoration: none;
+    padding: 20px;
+    background-size: cover;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: rgba(0, 0, 0, 0.863);
+}
+a.one:visited {
+    color: black;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+a.one:hover {
+    color: white;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+a.one:active {
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: rgba(0, 0, 0, 0.863);
+}
+
+/*corpo*/
+
+.container-produtos{
+    width: 1170px;
+    height: 1000px;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    margin-left: 600px;
+    margin-top: 20px;
+}
+
+/* Aquecedor */
+
+.container1{
+    width: 330px;
+    height: 380px;
+    display:flex;     
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top:50px;
+    background-color: #ffffffbd;
+    border-radius: 20px;
+    margin-left: 30px; 
+    font-size: 8px;
+    color: black;
+    text-align: center;
+    box-shadow: 1px 3px 10px rgba(0, 0, 0, 0.3);  
+    background-size: cover;
+    transition: all linear 160ms;
+    position: absolute;
+    margin-top: 30px;
+}
+
+.container1:hover {
+    transform: translateY(-7px);
+}
+
+.img1{
+    width: 190px;
+    height: 150px;
+    position: absolute;
+    margin-top: -160px;
+    margin-left: -95px;
+}
+
+.nome-produto1{
+    color: black;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20px;
+    position: absolute;
+    margin-top: 110px;
+    margin-left: 0px;
+    text-align: justify; 
+    margin-right: 10px;
+}
+
+.preco-produto1{
+    position: absolute;
+    text-decoration: line-through;
+    color: rgba(0, 0, 0, 0.664);
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    margin-top: 155px;
+    margin-left: -255px;
+}
+
+.preco-novo-produto1{
+    position: absolute;
+    color: rgb(0, 0, 0);
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 30px;
+    margin-top: 340px;
+}
+
+/* Ventilador de Coluna */
+
+.container2{
+    width: 330px;
+    height: 380px;
+    display:flex;     
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top:50px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    margin-top: 30px;
+    margin-left: 420px;
+    box-shadow: 1px 3px 10px rgba(0, 0, 0, 0.3); 
+    background-size: cover; 
+    transition: all linear 160ms;
+    position: absolute;
+}
+
+.container2:hover {
+    transform: translateY(-7px);
+}
+
+.img2{
+    width: 190px;
+    height: 190px;
+    position: absolute;
+    margin-top: -175px;
+    margin-left: -100px;
+}
+
+.nome-produto2{
+    color: black;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20px;
+    position: absolute;
+    margin-top: 110px;
+    margin-left: 0px;  
+    text-align: justify; 
+    margin-right: 10px;
+}
+
+.preco-produto2{
+    position: absolute;
+    text-decoration: line-through;
+    color: rgba(0, 0, 0, 0.664);
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    margin-top: 155px;
+    margin-left: -255px;
+}
+
+.preco-novo-produto2{
+    position: absolute;
+    color: rgb(0, 0, 0);
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 30px;
+    margin-top: 340px;
+}
+
+/* Aquecedor Halógeno */
+
+.container3{
+    width: 330px;
+    height: 380px;
+    display:flex;     
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top:50px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    margin-top: 30px;
+    margin-left: 810px;
+    box-shadow: 1px 3px 10px rgba(0, 0, 0, 0.3);  
+    background-size: cover;
+    transition: all linear 160ms;
+    position: absolute;
+}
+
+.container3:hover {
+    transform: translateY(-7px);
+}
+
+.img3{
+    width: 280px;
+    height: 190px;
+    position: absolute;
+    margin-top: -175px;
+    margin-left: -140px;
+}
+
+.nome-produto3{
+    color: black;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20px;
+    position: absolute;
+    margin-top: 110px;
+    margin-left: -15px;  
+    margin-right: 10px;
+    text-align: justify; 
+}
+
+.preco-produto3{
+    position: absolute;
+    text-decoration: line-through;
+    color: rgba(0, 0, 0, 0.664);
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    margin-top: 155px;
+    margin-left: -255px;
+}
+
+.preco-novo-produto3{
+    position: absolute;
+    color: rgb(0, 0, 0);
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 30px;
+    margin-top: 340px;
+}
+
+/* Ventilador de Coluna Super Turbo 8 Pás Mondial - VTX-40C-CRYSTAL */
+
+.container4{
+    width: 330px;
+    height: 380px;
+    display:flex;     
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top:50px;
+    background-color: #ffffffbd;
+    border-radius: 20px;
+    margin-left: 30px; 
+    font-size: 8px;
+    color: black;
+    text-align: center;
+    box-shadow: 1px 3px 10px rgba(0, 0, 0, 0.3);  
+    background-size: cover;
+    transition: all linear 160ms;
+    position: absolute;
+    margin-top: 460px;
+}
+
+.container4:hover {
+    transform: translateY(-7px);
+}
+
+.img4{
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    margin-top: -180px;
+    margin-left: -150px;
+}
+
+.nome-produto4{
+    color: black;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20px;
+    position: absolute;
+    margin-top: 110px;
+    margin-left: -13px; 
+    text-align: justify; 
+    margin-right: 10px;
+}
+
+.preco-produto4{
+    position: absolute;
+    text-decoration: line-through;
+    color: rgba(0, 0, 0, 0.664);
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    margin-top: 155px;
+    margin-left: -256px;
+}
+
+.preco-novo-produto4{
+    position: absolute;
+    color: rgb(0, 0, 0);
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 30px;
+    margin-top: 340px;
+}
+
+
+/*filtro*/
+.filtros{
+    margin-top: 50px;
+    margin-left: 7%;
+    height: 810px;
+    width: 420px;
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+    position: absolute;
+    justify-content: center;
+    box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+}
+.filters {
+    margin-bottom: 20px;
+}
+
+.filters label {
+    margin-right: 10px;
+}
+
+.filters input {
+    margin-bottom: 10px;
+    padding: 8px;
+}
+
+.h20 {
+    color: rgb(0, 0, 0);
+    font-family: "PT Serif", serif;
+    font-size: x-large;
+    margin-top: 0px;
+    margin-left: 12px;
+}
+
+.footer{
+    width: 1920px;
+    height: 400px;
+    position: absolute;
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    margin-top: 980px;
+    margin-left: -8px;
+}
+
+.sobrenos{
+    width: 1820px;
+    height: 320px;
+    position: absolute;
+    margin-top: 60px;
+    margin-left: 50px;
+}
+
+/*Sobre Nós*/
+
+.footertext{
+    position: absolute;
+    font-size: 20px;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    color: rgba(0, 0, 0, 0.863);
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+/*Institucional*/
+
+.footertext2{
+    position: absolute;
+    font-size: 20px;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    color: rgba(0, 0, 0, 0.863);
+    margin-left: 240px;
+    margin-top: -142px;
+}
+
+/*Minha Conta*/
+
+.footertext3{
+    position: absolute;
+    font-size: 20px;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    color: rgba(0, 0, 0, 0.863);
+    margin-left: 530px;
+    margin-top: -394px;
+}
+
+/*Contato*/
+
+.footertext4{
+    position: absolute;
+    font-size: 20px;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    color: rgba(0, 0, 0, 0.863);
+    margin-left: 780px;
+    margin-top: -466px;
+}
+
+.footertext5{
+    font-size: 17px;
+    text-decoration: none;
+    background-size: cover;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: rgba(0, 0, 0, 0.863);
+    margin-left: 780px;
+    position: absolute;
+    margin-top: -460px;
+}
+
+/*Sobre Nós*/
+
+a.three:link {
+    font-size: 17px;
+    text-decoration: none;
+    background-size: cover;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: rgba(0, 0, 0, 0.863);
+    margin-left: 30px;
+    position: absolute;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+a.three:visited {
+    color: black;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+a.three:hover {
+    color: rgb(0, 0, 0);
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: underline;
+}
+
+a.three:active {
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: rgba(0, 0, 0, 0.863);
+}
+
+/*Institucional*/
+
+a.four:link {
+    font-size: 17px;
+    text-decoration: none;
+    background-size: cover;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: rgba(0, 0, 0, 0.863);
+    margin-left: 240px;
+    position: absolute;
+    margin-top: -96px;
+    margin-bottom: 30px;
+}
+a.four:visited {
+    color: black;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+a.four:hover {
+    color: rgb(0, 0, 0);
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: underline;
+}
+
+a.four:active {
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: rgba(0, 0, 0, 0.863);
+}
+
+/*Minha Conta*/
+
+a.five:link {
+    font-size: 17px;
+    text-decoration: none;
+    background-size: cover;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: rgba(0, 0, 0, 0.863);
+    margin-left: 530px;
+    position: absolute;
+    margin-top: -350px;
+    margin-bottom: 30px;
+}
+a.five:visited {
+    color: black;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+a.five:hover {
+    color: rgb(0, 0, 0);
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: underline;
+}
+
+a.five:active {
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: rgba(0, 0, 0, 0.863);
+}
+
+.centralatendimento-btn{
+    width: 180px;
+    height: 40px;
+    color: #000000;
+    background-color: white;
+    border: 1px solid black;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: -440px;
+    margin-left: 780px;
+    position: absolute;
+    transition: 0.3s ease;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    color: rgba(0, 0, 0, 0.863);
+    align-items: center;
+    justify-content: center;
+} 
+
+.centralatendimento-btn:hover{
+    background-color: #000000;
+    color: white;
+}
+
+.btn2{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    margin-top: -550px;
+    margin-left: 1420px;
+    transition: all linear 160ms;
+}
+
+.btn2:hover{
+    transform: scale(1.05);
+}

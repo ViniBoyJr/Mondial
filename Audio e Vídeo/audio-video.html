@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>    
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="./audio-video.css">
+    <script src="../Java/script.js" defer></script>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <title>Audio e Video</title>        
+</head>
+<body>
+    <div class="containercima">
+        <div class="textcima">
+            A escolha inteligente
+        </div>
+    </div>
+
+    <div class="containertitulo">
+        <a href="../index.html" target="_top"><img src="../Imagens/logo-mondial-2048.png" class="btn"></a>
+        <form method="POST" class="formLogin">
+            <input type="text" placeholder="Faça sua pesquisa..." autofocus="true">
+        </form>
+        <img src="../Imagens/search-magnifying-glass-45dad4.png" class="imglupa">
+        <a href="https://www.correios.com.br/" target="_self"><img src="../Imagens/Captura de tela 2024-10-31 155913.png" class="imgrastrear"></a>
+        <img src="../Imagens/Captura de tela 2024-11-06 191642.png" class="telefone">
+        <img src="../Imagens/Captura de tela 2024-11-01 132655 1.png" class="imgcentral">
+        <a href="../entrar.html" target="_top"><img src="../Imagens/entrar.png" class="imgentrar"></a>
+        <a href="../carrinho.html" target="_top"><img src="../Imagens/carrinho.png" class="imgcarrinho"></a>
+    </div>
+
+    <div class="containermenu">
+        <a href="../Audio e Vídeo/audio-video.html" target="_self" class="one">ÁUDIO E VÍDEO</a>
+        &nbsp &nbsp &nbsp &nbsp 
+        <a href="../Eletrodomésticos/eletrodomesticos.html" target="_self" class="one">ELETRODOMÉSTICOS</a>
+        &nbsp &nbsp &nbsp &nbsp 
+        <a href="../Eletroportáveis/eletroportateis.html" target="_self" class="one">ELETROPORTÁTEIS</a>
+        &nbsp &nbsp &nbsp &nbsp 
+        <a href="../Climatizadores/climatizadores.html" target="_self" class="one">CLIMATIZADORES</a>
+    </div>
+    <!---->
+    <section class="filtros">
+        <div class="filters">
+            <h1 class="h20">Filtros</h1>
+            <label for="caixa">Caixa de som</label>
+            <input type="checkbox" id="caixa" data-category="Caixa de som">
+            <br>
+            
+            <label for="fone">Fone</label>
+            <input type="checkbox" id="fone" data-category="Fone de Ouvido">
+            <br>
+
+            <label for="speaker">Speaker</label>
+            <input type="checkbox" id="speaker" data-category="Speaker">
+            <br>
+
+            <button onclick="filterProducts()">Aplicar Filtro</button>
+        </div>
+    </section>
+    
+ <!--   <script>
+      //
+// Função para filtrar produtos
+function filterProducts() {
+  const selectedCategories = []; // Array para armazenar as categorias selecionadas
+
+  // Verificar quais checkboxes estão marcadas
+  const checkboxes = document.querySelectorAll('input[type="checkbox"]:checked');
+  checkboxes.forEach(checkbox => {
+    selectedCategories.push(checkbox.id); // Usando o id como a categoria (caixa, fone, speaker)
+  });
+
+  // Selecionar todos os produtos
+  const products = document.querySelectorAll(".container1, .container2, .container3, .container4, .container5, .container6");
+
+  products.forEach(product => {
+    // Usando o nome da classe do produto para determinar a categoria
+    let productCategory = '';
+
+    if (product.classList.contains('container1') || product.classList.contains('container2') || product.classList.contains('container3')) {
+      productCategory = 'caixa'; // Identificando como "Caixa de Som"
+    } else if (product.classList.contains('container') || product.classList.contains('container4')) {
+      productCategory = 'fone'; // Identificando como "Fone de Ouvido"
+    } else if (product.classList.contains('container5') || product.classList.contains('container6')) {
+      productCategory = 'speaker'; // Identificando como "Speaker"
+    }
+
+    // Mostrar ou esconder o produto com base nas categorias selecionadas
+    if (selectedCategories.length === 0 || selectedCategories.includes(productCategory)) {
+      product.style.display = "block"; // Exibe o produto
+    } else {
+      product.style.display = "none"; // Esconde o produto
+    }
+  });
+}
+
+  </script>
+
+   <script>
+        // Função para filtrar produtos
+        function filterProducts() {
+          const category = document.getElementById("category").value;
+          const products = document.querySelectorAll(".container1");
+    
+          products.forEach(product => {
+            // Verificar categoria
+            const productCategory = product.getAttribute("data-category");
+    
+            // Mostrar ou esconder o produto
+            if (!category || productCategory === category) {
+              product.style.display = "block";
+            } else {
+              product.style.display = "none";
+            }
+          });
+        }
+      </script>--> 
+</div>     
+<div class="container-produtos">
+    <div class="container1">
+        <a href="../Audio e Vídeo/Caixa Amplificada Connect Mega Sound II CM-1500.html" target="_self"><img src="../img/audio e video/Caixa Amplificada Connect Mega Sound II CM-1500.webp" class="img1"></a>
+        <p class="nome-produto1">Caixa Amplificada Connect Mega Sound II CM-1500</p>
+        <p class="preco-produto1">R$ 2.315,99</p>
+        <p class="preco-novo-produto1">R$ 2.069,91</p>
+    </div>
+    <div class="container2">
+        <a href="../Audio e Vídeo/Party Box Mondial Bivolt PBX-600-A BIVOLT.html" target="_self"><img src="../Imagens/Caixa de Som.png" class="img2"></a>
+        <p class="nome-produto2">Party Box Mondial Bivolt PBX-600-A BIVOLT</p>
+        <p class="preco-produto2">R$ 509,99</p>
+        <p class="preco-novo-produto2">R$ 479,99</p>
+    </div>
+    <div class="container3">
+        <a href="../Audio e Vídeo/Caixa Amplificada Mondial Connect Lights CM-400.html" target="_self"><img src="../img/audio e video/Caixa Amplificada Mondial Connect Lights CM-400.webp" class="img3"></a>
+        <p class="nome-produto3">Caixa Amplificada Mondial Connect Lights CM-400</p>
+        <p class="preco-produto3">R$ 789,90</p>
+        <p class="preco-novo-produto3">R$ 629,91</p>
+    </div>
+    <div class="container4">
+        <a href="./Fone de Ouvido Headphone Mondial Wireless Sound HP-03.html" target="_self"><img src="../img/audio e video/Fone de Ouvido Headphone Mondial Wireless Sound HP-03.webp" class="img4"></a>
+        <p class="nome-produto4">Fone de Ouvido Headphone Mondial Wireless Sound HP-03</p>
+        <p class="preco-produto4">R$ 215,00</p>
+        <p class="preco-novo-produto4">R$ 190,00</p>
+    </div>
+    <div class="container5">
+        <a href="./Speaker Mondial Monster Sound SK-06.html" target="_self"><img src="../img/audio e video/Speaker Mondial Monster Sound SK-06.webp" class="img5"></a>
+        <p class="nome-produto5">Speaker Mondial Monster Sound SK-06</p>
+        <p class="preco-produto5">R$ 542,80</p>
+        <p class="preco-novo-produto5">R$ 511,10</p>
+    </div>
+    <div class="container6">
+        <a href="./Speaker Mondial Vibe One SK-03.html" target="_self"><img src="../img/audio e video/Speaker Mondial Vibe One SK-03.webp" class="img6"></a>
+        <p class="nome-produto6">Speaker Mondial Vibe One SK-03</p>
+        <p class="preco-produto6">R$ 469,99</p>
+        <p class="preco-novo-produto6">R$ 382,41</p>
+    </div>
+</div>
+<div class="footer">
+  <div class="sobrenos">
+      <p class="footertext">Sobre nós</p><br>
+      <a href="../quemsomos.html" class="three" target="_self">Quem Somos</a><br><br>
+      <a href="#" class="three" target="_self">Prêmios</a><br><br>
+      <a href="#" class="three" target="_self">Imprensa</a><br><br>
+      <a href="#" class="three" target="_self">Certificados</a><br><br>
+      <p class="footertext2">Institucional</p>
+      <a href="#" class="four" target="_self">Dúvidas Frequentes</a><br><br>
+      <a href="#" class="four" target="_self">Trocas e Devoluções</a><br><br>
+      <a href="#" class="four" target="_self">Trabalhe Conosco</a><br><br>
+      <a href="#" class="four" target="_self">Política de Qualidade</a><br><br>
+      <a href="#" class="four" target="_self">Cuidado com Sites Fakes!</a><br><br>
+      <a href="#" class="four" target="_self">Política de Privacidade</a><br><br>
+      <a href="#" class="four" target="_self">Central de Atendimento</a><br><br>
+      <p class="footertext3">Minha Conta</p>
+      <a href="#" class="five" target="_self">Minha Conta</a><br><br>
+      <a href="#" class="five" target="_self">Meus Pedidos</a><br><br>
+      <p class="footertext4">Contato</p><br><br>
+      <p class="footertext5">Clique no botão abaixo e acesse a central de atendimento:</p><br><br>
+      <button class="centralatendimento-btn">Central de Atendimento</button>
+      <a href="../index.html" target="_self"><img src="../Imagens/logo-mondial-2048.png" class="btn2"></a>
+  </div>
+</div>
+</body>
+</html>
