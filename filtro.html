@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Filtro de Produtos</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+    .product {
+      border: 1px solid #ccc;
+      padding: 10px;
+      margin: 10px 0;
+    }
+    .filters {
+      margin-bottom: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Filtros de Produtos</h1>
+
+  <!-- Filtros -->
+  <div class="filters">
+    <label for="category">Categoria:</label>
+    <select id="category">
+      <option value="">Todas</option>
+      <option value="eletronicos">Eletrônicos</option>
+      <option value="roupas">Roupas</option>
+      <option value="livros">Livros</option>
+    </select>
+
+    <button onclick="filterProducts()">Filtrar</button>
+  </div>
+
+  <!-- Lista de Produtos -->
+  <div id="product-list">
+    <div class="product" data-category="eletronicos">
+      <h3>Smartphone</h3>
+      <p>Categoria: Eletrônicos</p>
+    </div>
+    <div class="product" data-category="roupas">
+      <h3>Camiseta</h3>
+      <p>Categoria: Roupas</p>
+    </div>
+    <div class="product" data-category="livros">
+      <h3>Livro de Programação</h3>
+      <p>Categoria: Livros</p>
+    </div>
+    <div class="product" data-category="eletronicos">
+      <h3>Notebook</h3>
+      <p>Categoria: Eletrônicos</p>
+    </div>
+    <div class="product" data-category="livros">
+      <h3>Livro de JavaScript</h3>
+      <p>Categoria: Livros</p>
+    </div>
+  </div>
+
+  <script>
+    // Função para filtrar produtos
+    function filterProducts() {
+      const category = document.getElementById("category").value;
+      const products = document.querySelectorAll(".product");
+
+      products.forEach(product => {
+        // Verificar categoria
+        const productCategory = product.getAttribute("data-category");
+
+        // Mostrar ou esconder o produto
+        if (!category || productCategory === category) {
+          product.style.display = "block";
+        } else {
+          product.style.display = "none";
+        }
+      });
+    }
+  </script>
+
+</body>
+</html>
